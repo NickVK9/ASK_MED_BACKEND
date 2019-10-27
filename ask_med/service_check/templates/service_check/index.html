@@ -1,0 +1,17 @@
+ <h1>Проверка услуг медицинского страхования</h1>>
+ <form action="/service_check/result" method="get">
+  <p><b>Введите номер полиса</b><br>
+   <input type="text" name="polis_id" size="40">
+  </p>
+  <p><b>Выберите тип страхования</b><Br>
+   <input type="radio" name="tip" value="oms"> Омс<Br>
+   <input type="radio" name="tip" value="dms"> Дмс<Br>
+  </p>
+  <p><b>Выберите страховую компанию</b><br>
+   <input type="text" name="polis_ltd_sk">
+  </p>
+  <p><b>Введите услуги через запятую:</b><Br>
+   <input type="text" name="polis_outservice">
+  </p>
+  <input type="submit" value="Проверить">
+ </form>

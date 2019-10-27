@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <title>Проверка услуг медиинского страхования - результаты</title>
+ </head>
+ <body>
+
+ <h1>Проверка услуг медицинского страхования</h1>
+ <form name="test" action="/service_check/" method="get">
+
+  <p>{{ type }}</p>
+  <p></p>
+
+  <p>{{ id }}</p>
+  <p>Дата окончания: {{ date_end }}</p>
+  <p></p>
+
+  <p>{{ sk }}</p>
+  <p>{{ tel }}</p>
+  <p></p>
+
+  <p><b>Выберите услуги:</b><Br>
+   <input type="text" name="polis_ltd_outservice">
+  </p>
+  <p>{{ output }}</p>
+  <p><input type="submit" value="Новый запрос">
+ </form>
+
+ </body>
+</html>
